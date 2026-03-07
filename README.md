@@ -123,6 +123,97 @@ Capabilities include:
 - Git
 - GitHub
 
+visioncopilot-live/
+│
+├── frontend/
+│ React interface
+│
+├── backend/
+│ FastAPI server
+│
+├── ai/
+│ Gemini integration
+│
+├── infrastructure/
+│ deployment configuration
+│
+├── docs/
+│ architecture and documentation
+│
+└── README.md
+
+
+---
+
+## Setup (Coming Soon)
+
+Instructions for running VisionCopilot Live locally will be added soon.
+
+Planned setup steps:
+
+1. Clone the repository
+2. Install dependencies
+3. Configure Google Cloud credentials
+4. Run backend server
+5. Start frontend application
+
+---
+
+## Deployment
+
+VisionCopilot Live will be deployed using Google Cloud services including:
+
+- Cloud Run
+- Containerized backend
+- Secure API access to Gemini models
+
+---
+
+## Use Cases
+
+VisionCopilot Live can assist users in many real-world scenarios:
+
+- Code debugging
+- Document understanding
+- Learning and tutoring
+- Workflow assistance
+- Visual explanation of complex content
+
+---
+
+## Challenges
+
+Building a real-time multimodal system introduced several technical challenges:
+
+- Managing low-latency communication
+- Processing voice and vision inputs simultaneously
+- Designing context-aware AI prompts
+- Ensuring scalable cloud deployment
+
+---
+
+## Future Improvements
+
+Planned enhancements include:
+
+- Persistent memory system
+- Tool-use capabilities
+- UI automation features
+- Enterprise integrations
+- Advanced voice synthesis
+
+---
+
+## License
+
+MIT License
+
+---
+
+## Acknowledgments
+
+This project was created for the Gemini Live Agent Challenge and demonstrates the capabilities of modern multimodal AI systems.
+
 ---
 
 ## Project Structure
