@@ -123,25 +123,51 @@ Capabilities include:
 - Git
 - GitHub
 
+## Project Structure
+
+```
 visioncopilot-live/
 │
 ├── frontend/
-│ React interface
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── CameraView.tsx
+│   │   │   ├── VoiceInput.tsx
+│   │   │   └── ResponsePanel.tsx
+│   │   │
+│   │   ├── services/
+│   │   │   └── websocket.ts
+│   │   │
+│   │   ├── App.tsx
+│   │   └── main.tsx
+│   │
+│   └── package.json
 │
 ├── backend/
-│ FastAPI server
+│   ├── app/
+│   │   ├── main.py
+│   │   ├── routes.py
+│   │   ├── websocket.py
+│   │   ├── vision.py
+│   │   └── gemini_agent.py
+│   │
+│   └── requirements.txt
 │
 ├── ai/
-│ Gemini integration
+│   └── prompts/
+│       └── agent_prompt.txt
 │
 ├── infrastructure/
-│ deployment configuration
+│   ├── Dockerfile
+│   └── deploy.sh
 │
 ├── docs/
-│ architecture and documentation
+│   └── architecture.png
 │
+├── .gitignore
 └── README.md
-
+```
 
 ---
 
