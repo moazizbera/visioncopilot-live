@@ -84,7 +84,6 @@ cd frontend && npm install && npm run dev
 
 ---
 
-## 🎬 Demo
 
 ## 🎬 Demo
 
@@ -92,7 +91,7 @@ cd frontend && npm install && npm run dev
 
 | Main Demo (2 min) | Extended Demo (5 min) |
 |-------------------|----------------------|
-| [![Watch Main Demo](docs/demo_thumbnail_main.png)](docs/demo_video_main.mp4) | [![Watch Extended Demo](docs/demo_thumbnail_extended.png)](docs/demo_video_extended.mp4) |
+| [![Watch Main Demo](docs/demo_thumbnail_main.png)](https://youtu.be/pH09uK0Q_rU) | [![Watch Extended Demo](docs/demo_thumbnail_extended.png)](https://youtu.be/fJmHTVRPKEw) |
 | Voice + Screen analysis | Full feature walkthrough |
 
 ### Interface Screenshots
