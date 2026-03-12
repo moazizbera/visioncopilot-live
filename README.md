@@ -1,127 +1,178 @@
 # VisionCopilot Live
 
-VisionCopilot Live is a real-time multimodal AI agent that can see your screen, listen to your voice, and collaborate with you interactively.
+🚀 **VisionCopilot Live is a real-time multimodal AI copilot that can see your screen, hear your voice, and collaborate with you interactively.**
 
-Built using Google's Gemini models and deployed on Google Cloud, VisionCopilot demonstrates how AI can move beyond text-based chat into real-time collaborative experiences.
+Unlike traditional AI assistants that rely only on typed prompts, VisionCopilot enables **natural human-AI collaboration** by combining:
 
-From Chat to Collaboration.
+🎤 Voice interaction  
+👁 Visual understanding (screen or camera)  
+🧠 Multimodal reasoning  
 
----
+Powered by **Gemini**, VisionCopilot transforms AI from a passive chatbot into an **active real-time collaborator**.
 
-## Overview
+Built for the **Gemini Live Agent Challenge**.
 
-Traditional AI assistants rely on typed prompts. VisionCopilot Live introduces a new interaction model where users can speak naturally and show visual context.
+> **From Chat → To Collaboration**
 
-The agent understands voice input, analyzes visual data from the user's screen or camera, and responds intelligently in real time.
+------------------------------------------------------------------------
 
-This project was built for the Gemini Live Agent Challenge.
+# ✨ Demo
 
----
+VisionCopilot Live enables powerful real-time AI interaction:
 
-## Features
+• Voice conversations with AI\
+• Camera and screen understanding\
+• Real-time multimodal reasoning\
+• Session memory and summaries\
+• Interactive quick-action prompts
 
-- Real-time voice interaction
-- Screen and camera vision understanding
-- Multimodal AI reasoning
-- Interactive AI assistance
-- Cloud-native deployment
-- Modular architecture for AI agents
 
----
+![](docs/ui-preview.jpeg)
 
-## Architecture
+## 🎬 Demo Videos
 
-The system follows a modular architecture composed of three major layers.
+Watch VisionCopilot Live in action:
 
-### Frontend
+**Main Demo (short)**  
+[![Watch Main Demo](docs/demo_thumbnail_main.png)](docs/demo_video_main.mp4)
 
-React-based user interface enabling:
+**Extended Demo (full features)**  
+[![Watch Extended Demo](docs/demo_thumbnail_extended.png)](docs/demo_video_extended.mp4)
 
-- Microphone input
-- Screen sharing
-- Webcam streaming
-- Real-time interaction
 
-Technologies:
+> Note: Click the thumbnails to play the videos directly from GitHub.
 
-- React
-- WebRTC
-- MediaStream API
-- Web Speech API
-- TailwindCSS
+The demo shows how VisionCopilot:
 
----
+• Hears voice input  
+• Sees screen context  
+• Analyzes visual information  
+• Provides real-time AI guidance
 
-### Backend
+------------------------------------------------------------------------
 
-A FastAPI-based server responsible for:
+# � Interface Preview
 
-- WebSocket communication
-- Session management
-- Multimodal request orchestration
-- Integration with Gemini APIs
+| Voice Interaction | Screen Analysis | AI Response |
+|------------------|----------------|-------------|
+| ![](docs/voice.jpeg) | ![](docs/screen.jpeg) | ![](docs/response.jpeg) |
 
-Technologies:
+------------------------------------------------------------------------
 
-- Python
-- FastAPI
-- WebSockets
-- REST APIs
+# �💡 What Makes VisionCopilot Different
 
----
+VisionCopilot introduces a **multimodal AI interaction model**.
 
-### AI Layer
+Traditional AI:
+Text → AI → Response
 
-VisionCopilot integrates Gemini models using the Google GenAI SDK.
+VisionCopilot:
+Voice + Vision → AI Reasoning → Real-Time Collaboration
 
-Capabilities include:
+This allows AI to understand **both what the user says and what the user sees**, enabling powerful assistance in real-world workflows.
 
-- Vision analysis
-- Conversational reasoning
-- Context-aware responses
-- Multimodal prompt processing
+------------------------------------------------------------------------
 
----
+# 🚀 Key Features
 
-## Technology Stack
+## Multimodal AI Interaction
 
-### Languages
+Interact with AI using voice, screen sharing, or webcam input.
 
-- Python
-- TypeScript
-- JavaScript
-- HTML5
-- CSS3
+## Real-Time Streaming Analysis
 
-### Frontend
+VisionCopilot processes visual input and responds instantly using
+WebSockets.
 
-- React
-- WebRTC
-- MediaStream API
-- Web Speech API
-- TailwindCSS
+## AI Copilot Personality
 
-### Backend
+VisionCopilot behaves as a collaborative assistant that explains visual
+context and provides guidance.
 
-- FastAPI
-- WebSockets
-- REST APIs
+## Quick Action Prompts
 
-### AI
+One-click triggers for AI workflows:
 
-- Gemini
-- Google GenAI SDK
+• Explain what you see\
+• Analyze this screen\
+• Summarize the conversation\
+• What should I do next?
 
-### Cloud & Infrastructure
+## Smart Session Summary
 
-- Google Cloud
-- Cloud Run
-- Docker
+Generate structured summaries:
 
-### Development
+• Key topics discussed\
+• Important findings\
+• Decisions made\
+• Open questions\
+• Action items
 
-- Git
-- GitHub
+## Live System Status
+
+Indicators show:
+
+• WebSocket connection status\
+• Camera activity\
+• Voice input status\
+• Streaming state
+
+------------------------------------------------------------------------
+
+# 🏗 System Architecture
+
+VisionCopilot Live follows a **three-layer architecture**.
+
+
+## Frontend Layer
+
+Interactive user experience:
+
+• Microphone input\
+• Screen sharing\
+• Webcam streaming\
+• Real-time chat interface\
+• Quick-action controls
+
+Technologies:React,TypeScript,TailwindCSS,WebRTC,MediaStream API,Web Speech API
+
+------------------------------------------------------------------------
+
+## Backend Layer
+
+Orchestrates AI interaction and real-time communication:
+
+• WebSocket communication\
+• Session management\
+• Streaming visual analysis\
+• Gemini API integration
+
+Technologies: Python, FastAPI, WebSockets, REST APIs
+
+------------------------------------------------------------------------
+
+## AI Layer
+
+Gemini-powered multimodal reasoning:
+
+• Multimodal prompt processing\
+• Conversational reasoning\
+• Vision analysis\
+• Session summarization
+
+------------------------------------------------------------------------
+
+
+# 🧠 Technology Stack
+
+| Layer / Category        | Technologies                              |
+|-------------------------|-------------------------------------------|
+| Languages               | Python, TypeScript, JavaScript, HTML5, CSS3 |
+| Frontend                | React, TailwindCSS, WebRTC, Web Speech API |
+| Backend                 | FastAPI, WebSockets, REST APIs            |
+| AI                      | Gemini, Google GenAI SDK                  |
+| Cloud & Infrastructure  | Google Cloud, Cloud Run, Docker           |
+| Development Tools       | Git, GitHub                               |------------------------------------------------------------------------
 
 ## Project Structure
 
@@ -171,75 +222,159 @@ visioncopilot-live/
 
 ---
 
-## Setup (Coming Soon)
+------------------------------------------------------------------------
 
-Instructions for running VisionCopilot Live locally will be added soon.
+# 🔐 Environment Setup
 
-Planned setup steps:
+## Backend Configuration (Required)
 
-1. Clone the repository
-2. Install dependencies
-3. Configure Google Cloud credentials
-4. Run backend server
-5. Start frontend application
+1. Navigate to the backend directory:
+   ```bash
+   cd backend
+   ```
 
----
+2. Copy the environment template:
+   ```bash
+   cp .env.example .env
+   ```
 
-## Deployment
+3. Edit `.env` and add your Gemini API key:
+   ```bash
+   GEMINI_API_KEY=your_actual_api_key_here
+   ```
+   
+   Get your free API key from: [Google AI Studio](https://makersuite.google.com/app/apikey)
 
-VisionCopilot Live will be deployed using Google Cloud services including:
+## Frontend Configuration (Optional)
 
-- Cloud Run
-- Containerized backend
-- Secure API access to Gemini models
+The frontend uses sensible defaults. Only create a `.env` file if you need custom backend URLs:
 
----
+```bash
+cd frontend
+cp .env.example .env
+# Edit .env if needed (typically not required for local development)
+```
 
-## Use Cases
-
-VisionCopilot Live can assist users in many real-world scenarios:
-
-- Code debugging
-- Document understanding
-- Learning and tutoring
-- Workflow assistance
-- Visual explanation of complex content
-
----
-
-## Challenges
-
-Building a real-time multimodal system introduced several technical challenges:
-
-- Managing low-latency communication
-- Processing voice and vision inputs simultaneously
-- Designing context-aware AI prompts
-- Ensuring scalable cloud deployment
+**⚠️ Security Note:** Never commit `.env` files to version control. See [SECURITY.md](SECURITY.md) for detailed security guidelines.
 
 ---
 
-## Future Improvements
+# ⚙ Running Locally
+
+## 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/moazizbera/visioncopilot-live
+cd visioncopilot-live
+```
+
+## 2️⃣ Backend Setup
+
+```bash
+# Navigate to backend directory
+cd backend
+
+# Create virtual environment (recommended)
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Configure environment (see Environment Setup above)
+cp .env.example .env
+# Edit .env and add your GEMINI_API_KEY
+```
+
+## 3️⃣ Start backend server
+
+```bash
+# Make sure you're in the backend directory
+cd backend
+
+# Start with uvicorn
+uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+```
+
+Backend will be available at: `http://localhost:8000`
+
+## 4️⃣ Frontend Setup
+
+```bash
+# In a new terminal, navigate to frontend directory
+cd frontend
+
+# Install dependencies
+npm install
+```
+
+## 5️⃣ Start frontend
+
+```bash
+npm run dev
+```
+
+Frontend will be available at: `http://localhost:5173`
+
+------------------------------------------------------------------------
+
+# 🔄 Example Workflow
+
+1 User shares screen or activates camera\
+2 VisionCopilot analyzes visual content\
+3 AI explains what is happening in real time\
+4 User asks follow-up questions using voice or chat\
+5 AI generates structured session summaries
+
+------------------------------------------------------------------------
+
+# 💡 Use Cases
+
+• Code debugging and software development\
+• Document understanding and analysis\
+• Learning and tutoring\
+• Workflow assistance\
+• Visual explanation of complex content
+
+------------------------------------------------------------------------
+
+# ⚙ Technical Challenges
+
+• Low-latency multimodal streaming\
+• Synchronizing voice and visual inputs\
+• Managing session memory across WebSockets\
+• Designing effective prompts for multimodal reasoning
+
+------------------------------------------------------------------------
+
+# 🔮 Future Improvements
 
 Planned enhancements include:
 
-- Persistent memory system
-- Tool-use capabilities
-- UI automation features
-- Enterprise integrations
-- Advanced voice synthesis
+• persistent AI memory\
+• autonomous AI agents\
+• tool-use capabilities\
+• UI automation features\
+• enterprise integrations
 
----
+------------------------------------------------------------------------
 
-## License
+# � Security
+
+- **See [SECURITY.md](SECURITY.md)** for guidelines
+- **Never commit `.env` files** with API keys
+- **Rotate keys** if exposed
+- **Use environment variables** for all sensitive configs
+
+------------------------------------------------------------------------
+
+# �📄 License
 
 MIT License
 
----
+------------------------------------------------------------------------
 
-## Acknowledgments
+# 🙏 Acknowledgments
 
-This project was created for the Gemini Live Agent Challenge and demonstrates the capabilities of modern multimodal AI systems.
-
----
-
-## Project Structure
+Created for the **Gemini Live Agent Challenge** 
+Thanks to the Gemini platform for enabling advanced multimodal reasoning.
