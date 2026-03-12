@@ -81,3 +81,4 @@ logs/
 # Build outputs
 *.build
 *.tar.gz
+HACKATHON_IMPROVEMENTS.md
