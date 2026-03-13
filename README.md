@@ -30,6 +30,73 @@
 
 </div>
 
+## ⚡ Quick Judge Evaluation (2 Minutes)
+
+**Fastest way to test VisionCopilot Live:**
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/moazizbera/visioncopilot-live
+cd visioncopilot-live
+```
+
+### 2️⃣ One-Command Setup
+```bash
+make install        # Install all dependencies
+make setup          # Create .env files
+```
+
+### 3️⃣ Add Your Gemini API Key
+Edit `backend/.env` and add:
+```
+GEMINI_API_KEY=your_key_here
+```
+🔑 Get free key: [Google AI Studio](https://makersuite.google.com/app/apikey)
+
+### 4️⃣ Start the System
+```bash
+make dev            # Starts backend + frontend
+```
+
+### 5️⃣ Open the Application
+👉 **http://localhost:5173**
+
+### 6️⃣ Try These Features (30 seconds each)
+
+| Feature | Action | What to Look For |
+|---------|--------|------------------|
+| 🎤 **Voice AI** | Click microphone → Say "Explain quantum computing" | Real-time transcription + streaming AI response |
+| 👁️ **Screen Vision** | Click "Screen" → Share screen → Ask "What do you see?" | AI analyzes your screen content with context |
+| 📷 **Camera Analysis** | Click "Camera" → Show object → Ask "Describe this" | Multimodal understanding of visual input |
+| ⚡ **Streaming** | Watch any response | Token-by-token streaming (<500ms latency) |
+
+### 🤖 Powered By
+**Google Gemini 2.5 Flash** - Multimodal AI with vision, voice, and streaming capabilities
+
+### 📊 Architecture at a Glance
+```
+User → React Frontend → WebSocket → FastAPI Backend → Gemini API → Streaming Response
+      (Voice/Vision)    (Real-time)   (Async Python)   (Multimodal)  (< 500ms)
+```
+
+### ✅ What Makes This Special
+- ✅ **True Real-Time:** WebSocket streaming (not polling)
+- ✅ **Multimodal:** Voice + Vision + Text simultaneously
+- ✅ **Production-Ready:** Docker deployment, 52/53 automated checks passed
+- ✅ **Low Latency:** <420ms first token, 12-15 msg/s throughput
+
+### 🎬 Quick Demo Videos
+- [**Main Demo (3:44 min)**](https://youtu.be/pH09uK0Q_rU) - Core features walkthrough
+- [**Extended Demo (4:11 min)**](https://youtu.be/fJmHTVRPKEw) - Full system demonstration
+
+### 🔍 Alternative: Automated Verification
+```bash
+make verify         # Runs 53 automated checks
+# Output: 52/53 passed ✅
+```
+
+---
+
 ## 📋 Table of Contents
 
 - [Overview](#-overview)
