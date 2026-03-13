@@ -15,7 +15,16 @@
 **VisionCopilot Live transforms AI from passive Q&A into active real-time collaboration.**  
 *Built for the Google Gemini Live Agent Challenge*
 
-[🎬 Watch Demo](#-demo) • [🚀 Quick Start](#-quick-start-30-seconds) • [📖 Documentation](docs/) • [🏗️ Architecture](#-architecture)
+[🎬 Watch Demo](#-demo) • [🚀 Quick Start](#-quick-start-30-seconds) • [📖 Documentation](docs/) • [🏗️ Architecture](#-architecture) • [☁️ GCP Proof](HACKATHON_GCP_PROOF.md)
+
+---
+
+### ☁️ Google Cloud Platform Integration
+
+**For Hackathon Judges:**  
+✅ **GCP Deployment Proof:** [HACKATHON_GCP_PROOF.md](HACKATHON_GCP_PROOF.md)  
+✅ **Gemini API Integration:** [ai/gemini_client.py](ai/gemini_client.py)  
+✅ **Cloud Run Ready:** One-command deployment with `.\scripts\deploy-to-gcp.ps1`
 
 ---
 
