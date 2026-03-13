@@ -3,6 +3,7 @@ Application Configuration
 Manages environment variables and application settings
 """
 
+import secrets
 from typing import List
 from pydantic_settings import BaseSettings
 from pydantic import Field, field_validator
@@ -32,7 +33,7 @@ class Settings(BaseSettings):
     
     # Session Configuration
     session_secret_key: str = Field(
-        default="change_this_secret_key_in_production",
+        default_factory=lambda: secrets.token_urlsafe(32),
         alias="SESSION_SECRET_KEY"
     )
     session_timeout_minutes: int = Field(default=30, alias="SESSION_TIMEOUT_MINUTES")
@@ -53,6 +54,18 @@ class Settings(BaseSettings):
         if v.lower() not in allowed:
             raise ValueError(f'Environment must be one of: {allowed}')
         return v.lower()
+    
+    @field_validator('session_secret_key')
+    @classmethod
+    def validate_secret_key(cls, v: str, info) -> str:
+        """Ensure strong session secret in production"""
+        env = info.data.get('environment', 'development')
+        if env == 'production':
+            if not v or len(v) < 32:
+                raise ValueError(
+                    "SESSION_SECRET_KEY must be set with strong value (32+ chars) in production"
+                )
+        return v
     
     @property
     def is_production(self) -> bool:
