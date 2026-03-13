@@ -120,7 +120,7 @@ cd frontend && npm install && npm run dev
 
 ### Video Demonstrations
 
-| Main Demo (2 min) | Extended Demo (5 min) |
+| Main Demo – VisionCopilot Live (Quick Overview, 3:44 min) | Extended Demo – VisionCopilot Live (Full Features, 4:11 min) |
 |-------------------|----------------------|
 | [![Watch Main Demo](docs/demo_thumbnail_main.png)](https://youtu.be/pH09uK0Q_rU) | [![Watch Extended Demo](docs/demo_thumbnail_extended.png)](https://youtu.be/fJmHTVRPKEw) |
 | Voice + Screen analysis | Full feature walkthrough |
