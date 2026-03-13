@@ -24,6 +24,7 @@
 ## 📋 Table of Contents
 
 - [Overview](#-overview)
+- [Why This Matters](#-why-this-project-matters)
 - [30-Second Quick Start](#-quick-start-30-seconds)
 - [Demo](#-demo)
 - [Why Gemini?](#-why-gemini)
@@ -55,7 +56,28 @@
 
 **Impact:** Transform workflows in coding, learning, document analysis, and creative tasks by giving AI the same visual context humans have.
 
-**Impact:** Transform workflows in coding, learning, document analysis, and creative tasks by giving AI the same visual context humans have.
+---
+
+## 💡 Why This Project Matters
+
+Most AI assistants are **passive chatbots** that wait for text input. VisionCopilot Live transforms AI into an **active collaborator** that can:
+
+- 🎤 **Listen** through voice — hands-free natural conversation
+- 👁️ **See** through the camera — understand visual context in real-time
+- 🖥️ **Understand your screen** — debug code, analyze documents, explain diagrams
+- ⚡ **Respond instantly** with Gemini 2.5 Flash — sub-second streaming responses
+
+This enables **new workflows** in:
+
+| Domain | How VisionCopilot Helps |
+|--------|------------------------|
+| 🧑‍💻 **Software Development** | Show your screen, explain code bugs verbally, get instant AI debugging |
+| 📚 **Education & Learning** | Point camera at textbook, ask questions, get visual explanations |
+| ♿ **Accessibility** | Voice-first interface for users who can't type, visual assistance for complex tasks |
+| 🆘 **Remote Support** | Share screen with AI assistant instead of waiting for human tech support |
+| 🎨 **Creative Work** | Get feedback on designs by showing them to AI in real-time |
+
+**The Future:** AI that doesn't just answer questions — it collaborates alongside you, seeing what you see and responding as you work.
 
 ---
 
@@ -103,14 +125,16 @@ cd frontend && npm install && npm run dev
 | [![Watch Main Demo](docs/demo_thumbnail_main.png)](https://youtu.be/pH09uK0Q_rU) | [![Watch Extended Demo](docs/demo_thumbnail_extended.png)](https://youtu.be/fJmHTVRPKEw) |
 | Voice + Screen analysis | Full feature walkthrough |
 
-### Interface Screenshots
+### 📸 Interface Screenshots
 
 <div align="center">
 
 | 🎤 Voice Interaction | 🖥️ Screen Analysis | 💬 AI Response |
 |:-------------------:|:-----------------:|:-------------:|
 | ![Voice Input](docs/voice.jpeg) | ![Screen Capture](docs/screen.jpeg) | ![AI Response](docs/response.jpeg) |
-| Real-time voice transcription | Live screen sharing with AI | Streaming multimodal responses |
+| **Voice-first collaboration** — Speak naturally, AI transcribes and responds | **Live screen understanding** — Share your screen, AI analyzes in real-time | **Streaming responses** — Watch AI think, token by token |
+
+*Full multimodal workflow: Voice input → Visual context → Instant AI collaboration*
 
 </div>
 
@@ -120,6 +144,8 @@ cd frontend && npm install && npm run dev
 - ✅ Streaming AI responses via WebSocket
 - ✅ Session memory across multiple interactions
 - ✅ Quick-action prompts for common workflows
+
+> **💡 Live Demo Option:** While this repository is designed for local testing, you can deploy a live demo to Cloud Run, Vercel, or Render using the included Docker configuration. See [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) for deployment guides.
 
 ---
 
