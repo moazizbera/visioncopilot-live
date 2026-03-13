@@ -214,7 +214,7 @@ def check_frontend(report: VerificationReport):
         report.add_fail("package.json missing")
     
     # Check src directory
-check_file_exists(report, "frontend/src/App.tsx", "  App.tsx component")
+    check_file_exists(report, "frontend/src/App.tsx", "  App.tsx component")
     check_file_exists(report, "frontend/src/main.tsx", "  main.tsx entry point")
 
 def check_security(report: VerificationReport):
@@ -369,7 +369,7 @@ def main():
         print(f"  1. Commit any remaining changes")
         print(f"  2. Push to GitHub")
         print(f"  3. Submit to Gemini Live Agent Challenge")
-        print(f"  4. Good luck! \ud83c\udf89\n")
+        print(f"  4. Good luck!\n")
     else:
         print(f"\n{RED}{BOLD}Action Required:{RESET}")
         print(f"  Fix the issues above before submitting")
