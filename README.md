@@ -123,7 +123,23 @@ cd frontend && npm install && npm run dev
 | Main Demo – VisionCopilot Live (Quick Overview, 3:44 min) | Extended Demo – VisionCopilot Live (Full Features, 4:11 min) |
 |-------------------|----------------------|
 | [![Watch Main Demo](docs/demo_thumbnail_main.png)](https://youtu.be/pH09uK0Q_rU) | [![Watch Extended Demo](docs/demo_thumbnail_extended.png)](https://youtu.be/fJmHTVRPKEw) |
-| Voice + Screen analysis | Full feature walkthrough |
+| This 4:11-minute video showcases all features of VisionCopilot Live in detail, including multimodal reasoning, session memory, camera vision, and interactive workflows. Perfect for judges or viewers who want to explore the system thoroughly.
+
+Features shown:
+• Voice + Screen + Camera multimodal interaction
+• Real-time AI explanations and guidance
+• Session memory and structured summaries
+• Quick action prompts for efficient collaboration
+
+Gemini Live Agent Challenge – Full Feature Demo | This 4:11-minute video showcases all features of VisionCopilot Live in detail, including multimodal reasoning, session memory, camera vision, and interactive workflows. Perfect for judges or viewers who want to explore the system thoroughly.
+
+Features shown:
+• Voice + Screen + Camera multimodal interaction
+• Real-time AI explanations and guidance
+• Session memory and structured summaries
+• Quick action prompts for efficient collaboration
+
+Gemini Live Agent Challenge – Full Feature Demo |
 
 ### 📸 Interface Screenshots
 
